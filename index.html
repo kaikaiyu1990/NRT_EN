@@ -120,12 +120,12 @@
             </div>
             <div class="mobile-overlay__locale-changer">
                 <div class="locale-changer">
-                <select>
+                <select onchange="location.href=this.options[this.selectedIndex].value">
                     <option class="text-center " value="en">
-                        <a href="index.html">English</a>
+                        <a>English</a>
                     </option>
-                    <option class="text-center " value="zh-cn">
-                        <a href="https://kaikaiyu1990.github.io/NRT/index.html">繁體中文</a>
+                    <option class="text-center " value="https://kaikaiyu1990.github.io/NRT/index.html">
+                        <a>繁體中文</a>
                     </option>
                 </select>
                 </div>  
